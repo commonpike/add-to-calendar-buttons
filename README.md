@@ -36,7 +36,7 @@ The only fields that are mandatory are:
         start: new Date('June 15, 2013 19:00'),
         
         // Event timezone. Will convert the given time to that zone
-        timezone: America/Los_Angeles,          
+        timezone: 'America/Los_Angeles',          
 
         // Event duration (IN MINUTES)
         duration: 120,
