@@ -468,6 +468,9 @@
       console.error('Event details missing.');
       return;
     }
+    
+    // Get the event ID into params.data object before calling generateMarkup().
+    params.data.id = params.options.id;
 
     return generateMarkup(
       generateCalendars(params.data),
